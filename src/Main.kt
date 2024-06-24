@@ -2,6 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 var name:String = "Palveet" //top level variable + non null string
 var lastName:String?=null //nullable string
+var greeting = null //nothing type, non inferable
 fun main() {
     val lang = "Kotlin" //inmmutable variable
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
