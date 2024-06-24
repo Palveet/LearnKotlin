@@ -17,10 +17,14 @@ fun main() {
 //    }
     //when similar to switch
     greeting="hello"
-    when(greeting){
-        null -> println("Hi")
-        else -> println(greeting)
-    }
-    println(name)
+//    when(greeting){
+//        null -> println("Hi")
+//        else -> println(greeting)
+//    }
+//    println(name)
 
+    //assigning value using if else
+
+    val greetingToPrint = if(greeting!=null) greeting else "hi"
+    println(greetingToPrint)
 }
