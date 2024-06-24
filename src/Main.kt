@@ -24,7 +24,12 @@ fun main() {
 //    println(name)
 
     //assigning value using if else
+    //val greetingToPrint = if(greeting!=null) greeting else "hi"
 
-    val greetingToPrint = if(greeting!=null) greeting else "hi"
+   //assigning value using when
+    val greetingToPrint = when(greeting){
+        null -> "hi"
+        else -> greeting
+    }
     println(greetingToPrint)
 }
