@@ -9,14 +9,13 @@ fun main() {
 //    println("Hello, " + lang + "!")
 //    println("Hello, " + name + "!")
 //    println(lastName)
-//    greeting = "Hello"
+    greeting = "Hello"
 //    if(greeting != null){
 //        println(greeting)
 //    } else {
 //        println("Hi")
 //    }
     //when similar to switch
-    greeting="hello"
 //    when(greeting){
 //        null -> println("Hi")
 //        else -> println(greeting)
