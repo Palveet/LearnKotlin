@@ -25,6 +25,10 @@ fun main(){
 //    interestingThings.forEachIndexed{index, interestingThing ->
 //        println("$interestingThing is at index $index")
 //    }
+    val interestingList = listOf("Kotlin","Programming","Comic Books")
 
-    
+    //very similar to array, accessing and printing using loop
+//    interestingList.forEach{interestingThing ->
+//        println(interestingThing)
+//    }
 }
