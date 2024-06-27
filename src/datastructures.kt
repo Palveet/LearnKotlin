@@ -1,6 +1,11 @@
 //By default collections are immutable in Kotlin
 
-fun sayHi(greeting:String, itemToGreet: String) = println("$greeting $itemToGreet")
+//vararg -> variable number of arguments, treats the item as array of defined type
+fun sayHi(greeting:String, vararg itemsToGreet: String){
+    itemsToGreet.forEach{ itemToGreet ->
+         println("$greeting $itemToGreet")
+    }
+}
 
 fun main(){
     val interestingThings = arrayOf("Kotlin","Programming","Comic Books")
@@ -28,6 +33,8 @@ fun main(){
 //        println("$interestingThing is at index $index")
 //    }
     val interestingList = listOf("Kotlin","Programming","Comic Books")
+    //sayHi("Hi", interestingList)
+    sayHi("Hi","Kotlin","Programming","Comic Books")
     val interestingListMutable = mutableListOf("Kotlin","Programming","Comic Books")
     interestingListMutable.add("Dogs")
 
