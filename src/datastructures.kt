@@ -35,6 +35,9 @@ fun main(){
     val interestingList = listOf("Kotlin","Programming","Comic Books")
     //sayHi("Hi", interestingList)
     sayHi("Hi","Kotlin","Programming","Comic Books")
+
+    //to pass an array to a function containing vararg, apply spread operator *
+    sayHi("Hello", *interestingThings)
     val interestingListMutable = mutableListOf("Kotlin","Programming","Comic Books")
     interestingListMutable.add("Dogs")
 
